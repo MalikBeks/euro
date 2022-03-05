@@ -1,0 +1,245 @@
+body {
+  height: 100%;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1179px;
+  margin: 0px auto;
+}
+
+.overflow {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/*-----------------------------------------------------------------------*/
+.header {
+  background: url("img/Mask-Group.jpg") no-repeat;
+  background-size: cover;
+  width: 100%;
+  left: 0;
+  top: 0;
+  min-height: 608px;
+}
+
+.header-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 46px;
+}
+
+.header__logo {
+
+
+}
+
+.text {
+  position: absolute;
+  left: 62px;
+  top: 35px;
+  font-size: 12px;
+  line-height: 17px;
+  color: #4F4F4F;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav {
+  display: flex;
+}
+
+.menu-item {
+  list-style: none;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: #222222;
+  font-family: 'Roboto', sans-serif;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+  line-height: 25px;
+  color: #222222;
+}
+
+.menu-link:hover {
+  color: #ff2929;
+}
+
+.menu-item:first-child {
+  margin-left: 113px;
+}
+
+.obratnaya-svaz {
+  margin-left: 71px;
+  font-size: 18px;
+  line-height: 21px;
+  color: #444444;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.btn-svaz {
+  background-color: #FF5C5C;
+  border-radius: 2px;
+  padding: 12px 20px 12px 20px;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.btn-svaz:hover {
+  background-color: #ff2929;
+}
+
+
+/*-----------------------------------------------------------------------*/
+
+
+
+.page-container {
+  display: flex;
+}
+
+.page-item {
+  margin-right: 96px;
+}
+
+.page-head {
+  font-size: 32px;
+  line-height: 37px;
+  font-weight: 400;
+  color: #444444;
+  margin-bottom: 60px;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 35px;
+}
+
+.strong {
+
+}
+
+.page-info {
+  margin-bottom: 40px;
+  font-size: 23px;
+  color: #444444;
+  font-family: 'Roboto', sans-serif;
+}
+
+.page-icons {
+  display: flex;
+  margin-right: 70px;
+}
+
+.icon {
+  text-align: center;
+  align-items: center;
+  margin-right: 76px;
+}
+.icon:last-child {
+  margin-right: 0;
+}
+
+.text-icon {
+  font-size: 14px;
+  color: #444444;
+  font-family: 'Roboto', sans-serif;
+}
+
+.page-form {
+
+  padding: 60px 67px 20px 63px;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16), 0px 2px 4px rgba(0, 0, 0, 0.24);
+  border-radius: 2px;
+
+}
+
+.page-form-title {
+  font-weight: bold;
+  font-size: 23px;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 28px;
+  color: #444444;
+}
+
+.page-form-quantity {
+  font-size: 14px;
+  color: #80A2C5;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 30px;
+}
+
+.form {
+
+}
+label {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #444444;
+}
+input {
+  box-shadow: inset 1px 1px 6px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 2px;
+  background: #EDEFF2;
+  width: 300px;
+  height: 30px;
+  padding-left: 10px;
+  border:0px;
+  margin-bottom: 20px;
+}
+input:last-child {
+  margin-bottom:55px ;
+}
+.name {
+  margin-bottom: 20px;
+}
+
+
+.phone {
+
+}
+
+.btn-form{
+  margin-bottom: 32px;
+}
+
+.form-btn {
+  font-size: 14px;
+  color: #FFFFFF;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16), 0px 2px 4px rgba(0, 0, 0, 0.24);
+  border-radius: 2px;
+  background: #FF5C5C;
+  padding: 18px 45px 15px 45px;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+
+
+}
+.form-btn:hover {
+  background-color: #ff2929;
+}
+
+.privacy {
+  display: flex;
+  font-size: 10px;
+  color: #BCBFC4;
+  align-items: center;
+  text-align: center;
+padding-left: 50px;
+}
+.privacy-text {
+margin-left: 10px;
+}
